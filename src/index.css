@@ -109,3 +109,22 @@ body {
   margin-top: 7px;
   line-height: 15px;
 }
+
+.interests {
+  color: white;
+  margin-top: 25px;
+  padding: 0 35px;
+}
+
+.interests > h1 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.interests > p {
+  font-size: 10px;
+  font-weight: 300;
+  color: #DCDCDC;
+  margin-top: 5px;
+  line-height: 15px;
+}
