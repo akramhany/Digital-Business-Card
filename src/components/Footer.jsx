@@ -8,10 +8,10 @@ import github_logo from "./images/GitHub.png"
 export default function Footer() {
     return (
         <div className="footer">
-            <a href="https://twitter.com/Akram_Hany12"><img src={twitter_logo} alt="" /></a>
-            <a href="https://www.facebook.com/akram.hany.18/"><img src={facebook_logo} alt="" /></a>
+            <a href="https://twitter.com/Akram_Hany12" target="_blank"><img src={twitter_logo} alt="" /></a>
+            <a href="https://www.facebook.com/akram.hany.18/" target="_blank"><img src={facebook_logo} alt="" /></a>
             <img src={insta_logo} alt="" />
-            <a href="https://github.com/akramhany"><img src={github_logo} alt="" /></a>
+            <a href="https://github.com/akramhany" target="_blank"><img src={github_logo} alt="" /></a>
         </div>
     )
 }

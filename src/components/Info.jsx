@@ -18,10 +18,12 @@ export default function Info() {
                     <img src={email_logo} alt="" />
                     Email
                 </button>
-                <button className="info-linkedin-btn">
-                    <img src={linkedin_logo} alt="" />
-                    LinkedIn
-                </button>
+                <a href="https://www.linkedin.com/in/akramhany/" target="_blank">
+                    <button className="info-linkedin-btn">
+                        <img src={linkedin_logo} alt="" />
+                        LinkedIn
+                    </button>
+                </a>
             </div>
         </div>
     )

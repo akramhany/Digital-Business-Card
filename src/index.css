@@ -67,6 +67,10 @@ body {
   gap: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .info-email-btn, .info-linkedin-btn {
   width: 115px;
   padding: 9px 11px;
@@ -80,6 +84,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
 }
 
 .info-email-btn {
