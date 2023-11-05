@@ -11,14 +11,14 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Inter, sans;
-  overflow: hidden;
 }
 
 #root {
   background-color: #1A1B21;
   width: 317px;
-  height: 760px;
-  border-radius: 15px;
+  height: 750px;
+  border-radius: 10px;
+  overflow: hidden;
   position: relative;
 }
 
