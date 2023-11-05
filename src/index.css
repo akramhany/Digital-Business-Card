@@ -10,6 +10,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Inter, sans;
+  overflow: hidden;
 }
 
 #root {
@@ -52,7 +54,7 @@ body {
 .info-data > .website-url {
   color: #F5F5F5;
   font-size: 10px;
-  font-weight: 400;
+  font-weight: 300;
   margin-top: 8px;
 }
 
@@ -87,4 +89,23 @@ body {
 .info-linkedin-btn {
   background-color: #5093E2;
   color: white;
+}
+
+.about {
+  color: white;
+  margin-top: 35px;
+  padding: 0 35px;
+}
+
+.about > .about-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.about > .about-content {
+  font-size: 10px;
+  font-weight: 300;
+  color: #DCDCDC;
+  margin-top: 7px;
+  line-height: 15px;
 }
